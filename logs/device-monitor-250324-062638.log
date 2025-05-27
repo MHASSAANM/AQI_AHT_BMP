@@ -1,0 +1,307 @@
+06:26:38.978 > [D][main.cpp:90] setup(): 
+06:26:38.978 > Current Version: 1.1.1
+06:26:38.978 > Description: AQI Meter OTA Updates have been added
+06:26:38.978 > Commit Date: 3 March 2025
+06:26:38.978 > [D][AQISensor.cpp:18] init(): AHT20 initialized
+06:26:38.978 > [D][AQISensor.cpp:24] init(): BMP280 initialized
+06:26:38.978 > [D][AQISensor.cpp:29] init(): PM5007 initialized
+06:26:38.978 > [D][main.cpp:136] setup(): AQI sensor initialized successfully!
+06:26:38.978 > [I][Storage.cpp:20] init_storage(): Initializing SD card... 
+06:26:38.978 > [D][Storage.cpp:33] init_storage(): init_storage() -> storage.cpp -> SD Card Type: 
+06:26:38.978 > [D][Storage.cpp:44] init_storage(): SDHC 
+06:26:38.978 > [I][Storage.cpp:53] init_storage(): SD Card Size: 30841MB
+06:26:38.978 > [D][Storage.cpp:62] init_storage(): Previous data found! 
+06:26:38.978 > [D][Storage.cpp:81] init_storage(): File is: 
+06:26:38.978 > [D][Storage.cpp:82] init_storage(): /20250322.txt 
+06:26:38.978 > [D][Storage.cpp:83] init_storage(): Position is: 
+06:26:38.978 > [D][Storage.cpp:84] init_storage(): 91161 
+06:26:38.978 > [I][Storage.cpp:141] init_storage(): AP storage found!
+06:26:38.978 > [D][main.cpp:142] setup(): Storage initialization success!
+06:26:38.978 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 0 - WIFI_READY
+06:26:38.978 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:26:38.978 > [I][ESPWiFi.cpp:35] init(): updating AP list from SD card 
+06:26:38.978 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:26:38.978 > [D][Storage.cpp:661] return_APList(): Start of frame found 
+06:26:38.978 > [D][Storage.cpp:693] return_APList(): NeuBolt 
+06:26:38.978 > [D][Storage.cpp:710] return_APList(): 12344321 
+06:26:38.978 > [D][Storage.cpp:721] return_APList(): New AP returned 
+06:26:38.978 > [D][Storage.cpp:736] return_APList(): End of data reached 
+06:26:38.978 > [I][WiFiMulti.cpp:84] addAP(): [WIFI][APlistAdd] add SSID: NeuBolt
+06:26:38.978 > [V][ESPWiFi.cpp:62] update_APs(): Added AP 
+06:26:38.978 > [V][ESPWiFi.cpp:63] update_APs(): SSID: NeuBolt 
+06:26:38.978 > [V][ESPWiFi.cpp:64] update_APs(): Password: 12344321 
+06:26:38.978 > [V][ESPWiFi.cpp:68] update_APs(): credential length: 1 
+06:26:38.978 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:26:39.009 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:26:39.016 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 5
+06:26:39.021 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:26:39.023 > [I][WiFiMulti.cpp:119] run(): [WIFI] 5 networks found
+06:26:39.028 > [D][WiFiMulti.cpp:149] run():  --->   0: [6][0A:C5:E1:B7:31:9E] NeuBolt (-37) *
+06:26:39.037 > [D][WiFiMulti.cpp:151] run():        1: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-58) *
+06:26:39.045 > [D][WiFiMulti.cpp:151] run():        2: [9][CC:2D:21:8F:CE:C8] = 5G (-79) *
+06:26:39.050 > [D][WiFiMulti.cpp:151] run():        3: [4][50:D4:F7:16:73:F0] nouman787 (-84) *
+06:26:39.059 > [D][WiFiMulti.cpp:151] run():        4: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-89) *
+06:26:39.067 > [I][WiFiMulti.cpp:160] run(): [WIFI] Connecting BSSID: 0A:C5:E1:B7:31:9E SSID: NeuBolt Channel: 6 (-37)
+06:26:42.158 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+06:26:42.185 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+06:26:42.190 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.43.164, MASK: 255.255.255.0, GW: 192.168.43.1
+06:26:42.199 > [I][WiFiMulti.cpp:174] run(): [WIFI] Connecting done.
+06:26:42.204 > [D][WiFiMulti.cpp:175] run(): [WIFI] SSID: NeuBolt
+06:26:42.209 > [D][WiFiMulti.cpp:176] run(): [WIFI] IP: 192.168.43.164
+06:26:42.214 > [D][WiFiMulti.cpp:177] run(): [WIFI] MAC: 0A:C5:E1:B7:31:9E
+06:26:42.219 > [D][WiFiMulti.cpp:178] run(): [WIFI] Channel: 6
+06:26:42.223 > [I][ESPWiFi.cpp:242] connect_to_nearest(): Connection established 
+06:26:42.229 > [D][main.cpp:157] setup(): Initialized wifi successfully
+06:26:42.235 > [D][main.cpp:158] setup(): MAC: CC:DB:A7:49:55:04
+06:26:42.239 > [D][rtc.cpp:21] initRTC(): RTC initialization successful
+06:26:42.244 > [I][main.cpp:193] setup(): ID found!
+06:26:42.247 > Device name: TESTKITAQI
+06:26:42.250 > 
+06:26:42.292 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:42.300 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:42.306 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:42.312 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:42.318 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:42.324 > [V][ssl_client.cpp:59] start_ssl_client(): Free internal heap before TLS 232128
+06:26:42.332 > [V][ssl_client.cpp:65] start_ssl_client(): Starting socket
+06:26:43.066 > [V][ssl_client.cpp:104] start_ssl_client(): Seeding the random number generator
+06:26:43.074 > [V][ssl_client.cpp:113] start_ssl_client(): Setting up the SSL/TLS structure...
+06:26:43.081 > [I][ssl_client.cpp:127] start_ssl_client(): WARNING: Skipping SSL Verification. INSECURE!
+06:26:43.089 > [V][ssl_client.cpp:197] start_ssl_client(): Setting hostname for TLS session...
+06:26:43.094 > [V][ssl_client.cpp:212] start_ssl_client(): Performing the SSL/TLS handshake...
+06:26:45.526 > [V][ssl_client.cpp:233] start_ssl_client(): Verifying peer X.509 certificate...
+06:26:45.532 > [V][ssl_client.cpp:242] start_ssl_client(): Certificate verified.
+06:26:45.538 > [V][ssl_client.cpp:257] start_ssl_client(): Free internal heap after TLS 188444
+06:26:45.545 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 36 bytes...
+06:26:45.553 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:45.559 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 269 bytes...
+06:26:46.145 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 38 bytes...
+06:26:46.152 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:46.160 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 269 bytes...
+06:26:46.759 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 29 bytes...
+06:26:46.768 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:46.775 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 269 bytes...
+06:26:47.379 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 41 bytes...
+06:26:47.386 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:47.394 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 286 bytes...
+06:26:47.400 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 1 bytes...
+06:26:47.407 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 5 bytes...
+06:26:47.414 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 1 bytes...
+06:26:47.992 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 41 bytes...
+06:26:47.999 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:48.004 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 286 bytes...
+06:26:48.011 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 4 bytes...
+06:26:48.603 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 42 bytes...
+06:26:48.611 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:48.618 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 286 bytes...
+06:26:48.624 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 4 bytes...
+06:26:49.219 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 45 bytes...
+06:26:49.226 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 40 bytes...
+06:26:49.233 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 287 bytes...
+06:26:49.240 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 1 bytes...
+06:26:49.247 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 19 bytes...
+06:26:49.253 > [V][ssl_client.cpp:295] send_ssl_data(): Writing HTTP request with 1 bytes...
+06:26:49.833 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:49.841 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:49.847 > [V][ssl_client.cpp:265] stop_ssl_socket(): Cleaning SSL connection.
+06:26:49.852 > [D][OTA.cpp:22] downloadUpdate(): Already running latest version [1.1.1]
+06:26:49.859 > [I][rtc.cpp:233] setRtcTime(): Set RTC time
+06:27:04.367 > [E][WiFiClient.cpp:258] connect(): socket error on fd 56, errno: 104, "Connection reset by peer"
+06:27:18.705 > [E][WiFiClient.cpp:258] connect(): socket error on fd 57, errno: 104, "Connection reset by peer"
+06:27:18.715 > [I][Restart.cpp:10] incrementRestartCount(): Previous Restart Count: 3
+06:27:18.721 > [I][Restart.cpp:11] incrementRestartCount(): Previous Restart Time: 1742779166
+06:27:18.728 > [I][Restart.cpp:12] incrementRestartCount(): Current Restart Time: 1742779637
+06:27:18.734 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:18.738 > 
+06:27:19.239 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:19.245 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:17,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:19.252 > [D][Storage.cpp:223] write_data(): File written
+06:27:19.302 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:17,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:19.311 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:21.727 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:21.733 > 
+06:27:22.265 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:22.270 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:20,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:27:22.278 > [D][Storage.cpp:223] write_data(): File written
+06:27:22.283 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:20,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:27:22.293 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:24.727 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:24.733 > 
+06:27:25.250 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:25.255 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:23,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:25.263 > [D][Storage.cpp:223] write_data(): File written
+06:27:25.267 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:23,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:25.277 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:27.727 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:27.733 > 
+06:27:28.354 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:27:28.360 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:26,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:27:28.369 > [D][Storage.cpp:223] write_data(): File written
+06:27:28.373 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:26,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:27:28.381 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:30.726 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:30.731 > 
+06:27:31.320 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:31.325 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:29,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:31.334 > [D][Storage.cpp:223] write_data(): File written
+06:27:31.337 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:29,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:31.347 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:32.219 > [E][WiFiClient.cpp:258] connect(): socket error on fd 58, errno: 104, "Connection reset by peer"
+06:27:33.728 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:33.732 > 
+06:27:34.283 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:34.288 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:32,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:27:34.296 > [D][Storage.cpp:223] write_data(): File written
+06:27:34.300 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:32,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:27:34.310 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:36.726 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:36.733 > 
+06:27:37.247 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:37.252 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:35,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:37.259 > [D][Storage.cpp:223] write_data(): File written
+06:27:37.265 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:35,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:37.273 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:39.728 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:39.734 > 
+06:27:40.249 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:27:40.256 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:38,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:27:40.264 > [D][Storage.cpp:223] write_data(): File written
+06:27:40.268 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:38,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:27:40.277 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:42.729 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:42.734 > 
+06:27:43.394 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:27:43.400 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:41,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:43.409 > [D][Storage.cpp:223] write_data(): File written
+06:27:43.412 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:41,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:43.420 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:45.730 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:45.734 > 
+06:27:46.378 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:27:46.384 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:44,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:46.392 > [D][Storage.cpp:223] write_data(): File written
+06:27:46.395 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:44,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:27:46.402 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:48.198 > [E][WiFiClient.cpp:258] connect(): socket error on fd 60, errno: 104, "Connection reset by peer"
+06:27:48.730 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:48.734 > 
+06:27:49.362 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:49.366 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:47,TESTKITAQI,26.4, 62.2, 990.0, 0, 0, 0
+06:27:49.373 > [D][Storage.cpp:223] write_data(): File written
+06:27:49.379 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:47,TESTKITAQI,26.4, 62.2, 990.0, 0, 0, 0
+06:27:49.388 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:51.728 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:51.734 > 
+06:27:52.282 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:52.290 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:50,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:27:52.297 > [D][Storage.cpp:223] write_data(): File written
+06:27:52.301 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:50,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:27:52.311 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:54.729 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:54.734 > 
+06:27:55.226 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:55.231 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:53,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:55.240 > [D][Storage.cpp:223] write_data(): File written
+06:27:55.244 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:53,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:55.254 > [I][main.cpp:407] vStorage(): data written to storage
+06:27:57.729 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:27:57.736 > 
+06:27:58.269 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:27:58.274 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:56,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:58.283 > [D][Storage.cpp:223] write_data(): File written
+06:27:58.287 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:56,TESTKITAQI,26.3, 62.1, 990.0, 0, 0, 0
+06:27:58.297 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:00.731 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:00.736 > 
+06:28:01.272 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:01.277 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:27:59,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:28:01.286 > [D][Storage.cpp:223] write_data(): File written
+06:28:01.290 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:27:59,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:28:01.298 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:02.739 > [E][WiFiClient.cpp:258] connect(): socket error on fd 61, errno: 104, "Connection reset by peer"
+06:28:03.731 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:03.736 > 
+06:28:04.315 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:04.320 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:02,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:28:04.329 > [D][Storage.cpp:223] write_data(): File written
+06:28:04.332 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:02,TESTKITAQI,26.3, 62.1, 989.9, 0, 0, 0
+06:28:04.341 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:06.729 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:06.734 > 
+06:28:07.377 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:07.382 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:05,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:28:07.390 > [D][Storage.cpp:223] write_data(): File written
+06:28:07.394 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:05,TESTKITAQI,26.3, 62.2, 989.9, 0, 0, 0
+06:28:07.404 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:09.731 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:09.736 > 
+06:28:10.399 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:10.404 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:08,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:28:10.412 > [D][Storage.cpp:223] write_data(): File written
+06:28:10.417 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:08,TESTKITAQI,26.3, 62.2, 990.0, 0, 0, 0
+06:28:10.425 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:12.731 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:12.734 > 
+06:28:13.382 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:13.387 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:11,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:13.394 > [D][Storage.cpp:223] write_data(): File written
+06:28:13.398 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:11,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:13.409 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:15.732 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:15.737 > 
+06:28:16.324 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:28:16.329 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:14,TESTKITAQI,26.4, 62.1, 990.0, 0, 0, 0
+06:28:16.338 > [D][Storage.cpp:223] write_data(): File written
+06:28:16.340 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:14,TESTKITAQI,26.4, 62.1, 990.0, 0, 0, 0
+06:28:16.349 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:18.732 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:18.736 > 
+06:28:19.346 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:28:19.351 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:17,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:19.359 > [D][Storage.cpp:223] write_data(): File written
+06:28:19.364 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:17,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:19.373 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:20.967 > [E][WiFiClient.cpp:258] connect(): socket error on fd 62, errno: 113, "Software caused connection abort"
+06:28:21.733 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:21.737 > 
+06:28:22.297 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:28:22.302 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:20,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:22.310 > [D][Storage.cpp:223] write_data(): File written
+06:28:22.316 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:20,TESTKITAQI,26.4, 62.1, 989.9, 0, 0, 0
+06:28:22.325 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:24.733 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:24.738 > 
+06:28:25.250 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:28:25.258 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:23,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:25.265 > [D][Storage.cpp:223] write_data(): File written
+06:28:25.269 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:23,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:25.276 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:27.733 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:27.737 > 
+06:28:28.273 > [E][AQISensor.cpp:93] readPMS5007(): Checksum mismatch!
+06:28:28.277 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:26,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:28.289 > [D][Storage.cpp:223] write_data(): File written
+06:28:28.290 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:26,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:28.300 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:30.733 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:30.739 > 
+06:28:31.275 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:31.281 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:29,TESTKITAQI,26.4, 62.0, 989.9, 0, 0, 0
+06:28:31.287 > [D][Storage.cpp:223] write_data(): File written
+06:28:31.294 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:29,TESTKITAQI,26.4, 62.0, 989.9, 0, 0, 0
+06:28:31.301 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:33.733 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:33.738 > 
+06:28:34.337 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:34.343 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:32,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:34.351 > [D][Storage.cpp:223] write_data(): File written
+06:28:34.354 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:32,TESTKITAQI,26.4, 62.0, 990.0, 0, 0, 0
+06:28:34.364 > [I][main.cpp:407] vStorage(): data written to storage
+06:28:35.512 > [E][WiFiClient.cpp:258] connect(): socket error on fd 54, errno: 104, "Connection reset by peer"
+06:28:36.734 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:28:36.739 > 
+06:28:37.338 > [E][AQISensor.cpp:83] readPMS5007(): Invalid frame header!
+06:28:37.344 > [I][main.cpp:358] vAcquireData(): 2025-03-24 06:28:35,TESTKITAQI,26.4, 62.0, 989.9, 0, 0, 0
+06:28:37.352 > [D][Storage.cpp:223] write_data(): File written
+06:28:37.356 > [D][main.cpp:406] vStorage(): Data Written: 2025-03-24 06:28:35,TESTKITAQI,26.4, 62.0, 989.9, 0, 0, 0
+06:28:37.365 > [I][main.cpp:407] vStorage(): data written to storage

@@ -1,0 +1,199 @@
+06:18:11.577 > [D][main.cpp:90] setup(): 
+06:18:11.577 > Current Version: 1.1.1
+06:18:11.577 > Description: AQI Meter OTA Updates have been added
+06:18:11.577 > Commit Date: 3 March 2025
+06:18:11.577 > [E][AQISensor.cpp:33] init(): Could not find AHT20 sensor! Check wiring.
+06:18:11.577 > [E][AQISensor.cpp:40] init(): Could not find BMP280 sensor! Check wiring.
+06:18:11.577 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:11.577 > [E][AQISensor.cpp:54] init(): PM5007 not detected!
+06:18:11.577 > [D][main.cpp:136] setup(): AQI sensor initialized successfully!
+06:18:11.577 > [I][Storage.cpp:20] init_storage(): Initializing SD card... 
+06:18:11.577 > [W][sd_diskio.cpp:101] sdWait(): Wait Failed
+06:18:11.577 > [E][sd_diskio.cpp:123] sdSelectCard(): Select Failed
+06:18:11.577 > [W][sd_diskio.cpp:505] ff_sd_initialize(): GO_IDLE_STATE failed
+06:18:11.577 > [E][sd_diskio.cpp:775] sdcard_mount(): f_mount failed: (3) The physical drive cannot work
+06:18:11.577 > [W][sd_diskio.cpp:101] sdWait(): Wait Failed
+06:18:11.577 > [E][sd_diskio.cpp:123] sdSelectCard(): Select Failed
+06:18:11.577 > [E][Storage.cpp:24] init_storage(): Card Initialization Failed 
+06:18:11.577 > [E][main.cpp:148] setup(): Storage initialization failed!
+06:18:11.577 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 0 - WIFI_READY
+06:18:11.577 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:18:11.577 > [I][ESPWiFi.cpp:35] init(): updating AP list from SD card 
+06:18:11.577 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:18:11.577 > [I][WiFiMulti.cpp:84] addAP(): [WIFI][APlistAdd] add SSID: NeuBolt
+06:18:11.577 > [V][ESPWiFi.cpp:62] update_APs(): Added AP 
+06:18:11.577 > [V][ESPWiFi.cpp:63] update_APs(): SSID: NeuBolt 
+06:18:11.577 > [V][ESPWiFi.cpp:64] update_APs(): Password: 12344321 
+06:18:11.577 > [V][ESPWiFi.cpp:68] update_APs(): credential length: 1 
+06:18:11.577 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:11.577 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:18:11.577 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 7
+06:18:11.577 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:18:11.577 > [I][WiFiMulti.cpp:119] run(): [WIFI] 7 networks found
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        0: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-63) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        1: [11][CC:2D:21:8F:FA:C8] *¥!Ru$ (-77) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        2: [9][CC:2D:21:8F:CE:C8] = 5G (-84) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        3: [4][50:D4:F7:16:73:F0] nouman787 (-85) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        4: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-89) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        5: [6][FC:DD:55:8D:A9:6E] TELENOR 4G A96E (-91) *
+06:18:11.577 > [D][WiFiMulti.cpp:151] run():        6: [4][B0:DF:C1:C6:EA:F0] FINE NET 2 SD 03219461938 (-94) *
+06:18:11.577 > [E][WiFiMulti.cpp:191] run(): [WIFI] no matching wifi found!
+06:18:11.577 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+06:18:11.577 > [D][rtc.cpp:26] initRTC(): RTC initialization failed
+06:18:11.577 > [I][main.cpp:193] setup(): ID found!
+06:18:11.577 > Device name: TESTKITAQI
+06:18:11.577 > 
+06:18:11.577 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:11.628 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:18:11.635 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 5
+06:18:11.641 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:18:11.646 > [I][WiFiMulti.cpp:119] run(): [WIFI] 5 networks found
+06:18:11.649 > [D][WiFiMulti.cpp:151] run():        0: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-67) *
+06:18:11.657 > [D][WiFiMulti.cpp:151] run():        1: [11][CC:2D:21:8F:FA:C8] *¥!Ru$ (-79) *
+06:18:11.664 > [D][WiFiMulti.cpp:151] run():        2: [4][50:D4:F7:16:73:F0] nouman787 (-85) *
+06:18:11.672 > [D][WiFiMulti.cpp:151] run():        3: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-90) *
+06:18:11.682 > [D][WiFiMulti.cpp:151] run():        4: [4][B0:DF:C1:C6:EA:F0] FINE NET 2 SD 03219461938 (-93) *
+06:18:11.689 > [E][WiFiMulti.cpp:191] run(): [WIFI] no matching wifi found!
+06:18:11.694 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+06:18:11.702 > [I][main.cpp:282] setup(): Internet not availaible
+06:18:11.703 > [I][Restart.cpp:10] incrementRestartCount(): Previous Restart Count: 1
+06:18:11.709 > [I][Restart.cpp:11] incrementRestartCount(): Previous Restart Time: 1609459211
+06:18:11.718 > [I][Restart.cpp:12] incrementRestartCount(): Current Restart Time: 1609459211
+06:18:11.725 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:11.728 > 
+06:18:12.717 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:12.725 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:12.732 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:14.715 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:14.720 > 
+06:18:15.718 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:15.724 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:17.716 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:17.721 > 
+06:18:18.240 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:18:18.245 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 7
+06:18:18.253 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:18:18.256 > [I][WiFiMulti.cpp:119] run(): [WIFI] 7 networks found
+06:18:18.261 > [D][WiFiMulti.cpp:151] run():        0: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-67) *
+06:18:18.270 > [D][WiFiMulti.cpp:151] run():        1: [11][CC:2D:21:8F:FA:C8] *¥!Ru$ (-78) *
+06:18:18.275 > [D][WiFiMulti.cpp:151] run():        2: [4][50:D4:F7:16:73:F0] nouman787 (-86) *
+06:18:18.283 > [D][WiFiMulti.cpp:151] run():        3: [9][CC:2D:21:8F:CE:C8] = 5G (-88) *
+06:18:18.291 > [D][WiFiMulti.cpp:151] run():        4: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-91) *
+06:18:18.299 > [D][WiFiMulti.cpp:151] run():        5: [6][FC:DD:55:8D:A9:6E] TELENOR 4G A96E (-91) *
+06:18:18.307 > [D][WiFiMulti.cpp:151] run():        6: [4][B0:DF:C1:C6:EA:F0] FINE NET 2 SD 03219461938 (-92) *
+06:18:18.315 > [E][WiFiMulti.cpp:191] run(): [WIFI] no matching wifi found!
+06:18:18.320 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+06:18:18.718 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:18.722 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:20.717 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:20.723 > 
+06:18:21.718 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:21.724 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:23.717 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:23.723 > 
+06:18:24.718 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:24.724 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:26.715 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:26.721 > 
+06:18:27.718 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:27.724 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:29.716 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:29.722 > 
+06:18:30.719 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:30.724 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:32.718 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:32.724 > 
+06:18:33.720 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:33.725 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:35.716 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:35.723 > 
+06:18:36.719 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:36.725 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:38.719 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:38.723 > 
+06:18:39.721 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:39.725 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:41.719 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:41.726 > 
+06:18:42.721 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:42.726 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:42.733 > ets Jul 29 2019 12:21:46
+06:18:42.735 > 
+06:18:42.735 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+06:18:42.741 > configsip: 0, SPIWP:0xee
+06:18:42.743 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+06:18:42.748 > mode:DIO, clock div:2
+06:18:42.754 > load:0x3fff0018,len:4
+06:18:42.754 > load:0x3fff001c,len:1044
+06:18:42.754 > load:0x40078000,len:10124
+06:18:42.758 > load:0x40080400,len:5828
+06:18:42.761 > entry 0x400806a8
+06:18:43.311 > [D][main.cpp:90] setup(): 
+06:18:43.313 > Current Version: 1.1.1
+06:18:43.315 > Description: AQI Meter OTA Updates have been added
+06:18:43.321 > Commit Date: 3 March 2025
+06:18:43.336 > [E][AQISensor.cpp:33] init(): Could not find AHT20 sensor! Check wiring.
+06:18:43.343 > [E][AQISensor.cpp:40] init(): Could not find BMP280 sensor! Check wiring.
+06:18:45.339 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:45.343 > [E][AQISensor.cpp:54] init(): PM5007 not detected!
+06:18:45.350 > [D][main.cpp:136] setup(): AQI sensor initialized successfully!
+06:18:45.355 > [I][Storage.cpp:20] init_storage(): Initializing SD card... 
+06:18:45.651 > [W][sd_diskio.cpp:101] sdWait(): Wait Failed
+06:18:45.656 > [E][sd_diskio.cpp:123] sdSelectCard(): Select Failed
+06:18:45.659 > [W][sd_diskio.cpp:505] ff_sd_initialize(): GO_IDLE_STATE failed
+06:18:45.666 > [E][sd_diskio.cpp:775] sdcard_mount(): f_mount failed: (3) The physical drive cannot work
+06:18:45.961 > [W][sd_diskio.cpp:101] sdWait(): Wait Failed
+06:18:45.965 > [E][sd_diskio.cpp:123] sdSelectCard(): Select Failed
+06:18:45.971 > [E][Storage.cpp:24] init_storage(): Card Initialization Failed 
+06:18:45.977 > [E][main.cpp:148] setup(): Storage initialization failed!
+06:18:46.093 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 0 - WIFI_READY
+06:18:46.101 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:18:46.106 > [I][ESPWiFi.cpp:35] init(): updating AP list from SD card 
+06:18:46.111 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+06:18:46.117 > [I][WiFiMulti.cpp:84] addAP(): [WIFI][APlistAdd] add SSID: NeuBolt
+06:18:46.123 > [V][ESPWiFi.cpp:62] update_APs(): Added AP 
+06:18:46.126 > [V][ESPWiFi.cpp:63] update_APs(): SSID: NeuBolt 
+06:18:46.131 > [V][ESPWiFi.cpp:64] update_APs(): Password: 12344321 
+06:18:46.136 > [V][ESPWiFi.cpp:68] update_APs(): credential length: 1 
+06:18:46.139 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:49.366 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:18:49.373 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 7
+06:18:49.378 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:18:49.382 > [I][WiFiMulti.cpp:119] run(): [WIFI] 7 networks found
+06:18:49.387 > [D][WiFiMulti.cpp:151] run():        0: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-63) *
+06:18:49.393 > [D][WiFiMulti.cpp:151] run():        1: [11][CC:2D:21:8F:FA:C8] *¥!Ru$ (-78) *
+06:18:49.402 > [D][WiFiMulti.cpp:151] run():        2: [4][50:D4:F7:16:73:F0] nouman787 (-85) *
+06:18:49.409 > [D][WiFiMulti.cpp:151] run():        3: [9][CC:2D:21:8F:CE:C8] = 5G (-86) *
+06:18:49.417 > [D][WiFiMulti.cpp:151] run():        4: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-88) *
+06:18:49.426 > [D][WiFiMulti.cpp:151] run():        5: [4][B0:DF:C1:C6:EA:F0] FINE NET 2 SD 03219461938 (-91) *
+06:18:49.434 > [D][WiFiMulti.cpp:151] run():        6: [6][FC:DD:55:8D:A9:6E] TELENOR 4G A96E (-93) *
+06:18:49.442 > [E][WiFiMulti.cpp:191] run(): [WIFI] no matching wifi found!
+06:18:49.447 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+06:18:49.452 > [D][rtc.cpp:26] initRTC(): RTC initialization failed
+06:18:49.457 > [I][main.cpp:193] setup(): ID found!
+06:18:49.460 > Device name: TESTKITAQI
+06:18:49.463 > 
+06:18:49.463 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:54.965 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+06:18:54.972 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 6
+06:18:54.978 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+06:18:54.982 > [I][WiFiMulti.cpp:119] run(): [WIFI] 6 networks found
+06:18:54.988 > [D][WiFiMulti.cpp:151] run():        0: [6][B0:DF:C1:4F:88:70] FINE NET 2 MM 03219461938 (-66) *
+06:18:54.996 > [D][WiFiMulti.cpp:151] run():        1: [11][CC:2D:21:8F:FA:C8] *¥!Ru$ (-78) *
+06:18:55.002 > [D][WiFiMulti.cpp:151] run():        2: [4][50:D4:F7:16:73:F0] nouman787 (-85) *
+06:18:55.011 > [D][WiFiMulti.cpp:151] run():        3: [9][CC:2D:21:8F:CE:C8] = 5G (-86) *
+06:18:55.016 > [D][WiFiMulti.cpp:151] run():        4: [5][C8:3A:35:93:30:C8] FINE NET 2 RR@ 03219461938 (-89) *
+06:18:55.025 > [D][WiFiMulti.cpp:151] run():        5: [4][B0:DF:C1:C6:EA:F0] FINE NET 2 SD 03219461938 (-93) *
+06:18:55.034 > [E][WiFiMulti.cpp:191] run(): [WIFI] no matching wifi found!
+06:18:55.039 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+06:18:55.044 > [I][main.cpp:282] setup(): Internet not availaible
+06:18:55.051 > [I][Restart.cpp:10] incrementRestartCount(): Previous Restart Count: 2
+06:18:55.054 > [I][Restart.cpp:11] incrementRestartCount(): Previous Restart Time: 1609459211
+06:18:55.062 > [I][Restart.cpp:12] incrementRestartCount(): Current Restart Time: 1609459211
+06:18:55.070 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:55.073 > 
+06:18:56.063 > [E][AQISensor.cpp:73] readPMS5007(): Timeout waiting for data!
+06:18:56.070 > [I][main.cpp:358] vAcquireData(): 2165-165-165 165:165:85,TESTKITAQI,0, 0, 0, 0, 0, 0
+06:18:56.077 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+06:18:58.061 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+06:18:58.066 > 
