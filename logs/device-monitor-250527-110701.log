@@ -1,0 +1,393 @@
+11:07:01.431 > [D][main.cpp:90] setup(): 
+11:07:01.431 > Current Version: 1.1.0
+11:07:01.431 > Description: AQI Meter PM2.5
+11:07:01.431 > Commit Date: 23 March 2025
+11:07:01.431 > [D][AQISensor.cpp:32] init(): AHT20 initialized
+11:07:01.431 > [D][AQISensor.cpp:39] init(): BMP280 initialized
+11:07:01.431 > [D][main.cpp:136] setup(): AQI sensor initialized successfully!
+11:07:01.431 > [I][Storage.cpp:20] init_storage(): Initializing SD card... 
+11:07:01.431 > [D][Storage.cpp:33] init_storage(): init_storage() -> storage.cpp -> SD Card Type: 
+11:07:01.431 > [D][Storage.cpp:44] init_storage(): SDHC 
+11:07:07.119 > [I][Storage.cpp:53] init_storage(): SD Card Size: 30424MB
+11:07:07.124 > [W][Storage.cpp:130] init_storage(): Previous data not found! 
+11:07:07.131 > [I][Storage.cpp:153] init_storage(): AP storage not found. Creating new file 
+11:07:07.142 > [D][main.cpp:142] setup(): Storage initialization success!
+11:07:07.265 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 0 - WIFI_READY
+11:07:07.271 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+11:07:07.277 > [I][ESPWiFi.cpp:35] init(): updating AP list from SD card 
+11:07:07.281 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 14 - AP_START
+11:07:07.287 > [D][Storage.cpp:661] return_APList(): Start of frame found 
+11:07:07.291 > [D][Storage.cpp:693] return_APList(): NeuBolt 
+11:07:07.291 > [D][Storage.cpp:710] return_APList(): 12344321 
+11:07:07.300 > [D][Storage.cpp:721] return_APList(): New AP returned 
+11:07:07.306 > [D][Storage.cpp:736] return_APList(): End of data reached 
+11:07:07.310 > [I][WiFiMulti.cpp:84] addAP(): [WIFI][APlistAdd] add SSID: NeuBolt
+11:07:07.319 > [V][ESPWiFi.cpp:62] update_APs(): Added AP 
+11:07:07.319 > [V][ESPWiFi.cpp:63] update_APs(): SSID: NeuBolt 
+11:07:07.324 > [V][ESPWiFi.cpp:64] update_APs(): Password: 12344321 
+11:07:07.330 > [V][ESPWiFi.cpp:68] update_APs(): credential length: 1 
+11:07:07.335 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+11:07:10.964 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+11:07:10.969 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 22
+11:07:10.975 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+11:07:10.978 > [I][WiFiMulti.cpp:119] run(): [WIFI] 22 networks found
+11:07:10.985 > [D][WiFiMulti.cpp:151] run():        0: [8][50:0F:F5:80:A3:39] EnergyInformatics (-50) *
+11:07:10.992 > [D][WiFiMulti.cpp:151] run():        1: [4][7C:45:D0:3C:65:7E] ZONG4G-657E (-56) *
+11:07:11.000 > [D][WiFiMulti.cpp:151] run():        2: [11][00:A6:CA:47:AC:A0] Wireless (-60) *
+11:07:11.005 > [D][WiFiMulti.cpp:151] run():        3: [11][00:A6:CA:47:AC:A2] LUMS-Events (-60) *
+11:07:11.013 > [D][WiFiMulti.cpp:151] run():        4: [11][00:A6:CA:47:AC:A1] TV-LED (-60) *
+11:07:11.020 > [D][WiFiMulti.cpp:151] run():        5: [11][00:A6:CA:47:AC:A3] LUMS (-60) *
+11:07:11.027 > [D][WiFiMulti.cpp:149] run():  --->   6: [6][E6:A1:A5:75:7B:F8] NeuBolt (-62) *
+11:07:11.033 > [D][WiFiMulti.cpp:151] run():        7: [6][3C:8A:1F:33:47:05] SM9-079 (-63) *
+11:07:11.033 > [D][WiFiMulti.cpp:151] run():        8: [6][90:9A:4A:B8:CD:83] Airbus380 (-66) *
+11:07:11.044 > [D][WiFiMulti.cpp:151] run():        9: [2][50:D4:F7:10:A0:06] TP-Link_A006 (-68) *
+11:07:11.056 > [D][WiFiMulti.cpp:151] run():        10: [5][50:C7:BF:43:21:4C] Distributed Systems Lab (-75) *
+11:07:11.062 > [D][WiFiMulti.cpp:151] run():        11: [11][08:5A:11:23:67:E0] Wireless-LEC (-76) *
+11:07:11.073 > [D][WiFiMulti.cpp:151] run():        12: [1][70:70:8B:DD:0B:F5] LUMS-Events (-80) *
+11:07:11.077 > [D][WiFiMulti.cpp:151] run():        13: [1][70:70:8B:DD:0B:F1] wireless (-81) *
+11:07:11.086 > [D][WiFiMulti.cpp:151] run():        14: [1][60:32:B1:09:5B:C0] TP-Link_5BC0 (-83) *
+11:07:11.091 > [D][WiFiMulti.cpp:151] run():        15: [1][70:70:8B:DD:0B:F6] LUMS (-84) *
+11:07:11.097 > [D][WiFiMulti.cpp:151] run():        16: [1][4C:E1:75:1D:01:60] wireless-apple (-85) *
+11:07:11.107 > [D][WiFiMulti.cpp:151] run():        17: [1][4C:E1:75:1D:01:62] TV-LED (-85) *
+11:07:11.115 > [D][WiFiMulti.cpp:151] run():        18: [1][4C:E1:75:1D:01:63] wireless (-85) *
+11:07:11.121 > [D][WiFiMulti.cpp:151] run():        19: [1][28:6F:7F:DF:D3:32] LUMS-Events (-88) *
+11:07:11.131 > [D][WiFiMulti.cpp:149] run():  --->   20: [11][C8:3A:35:2D:59:78] NeuBolt (-91) *
+11:07:11.134 > [D][WiFiMulti.cpp:151] run():        21: [4][AC:84:C6:DF:DF:F6] TP-Link_DFF6 (-92) *
+11:07:11.145 > [I][WiFiMulti.cpp:160] run(): [WIFI] Connecting BSSID: E6:A1:A5:75:7B:F8 SSID: NeuBolt Channel: 6 (-62)
+11:07:14.760 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:07:14.793 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:07:14.799 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:07:14.809 > [I][WiFiMulti.cpp:174] run(): [WIFI] Connecting done.
+11:07:14.813 > [D][WiFiMulti.cpp:175] run(): [WIFI] SSID: NeuBolt
+11:07:14.813 > [D][WiFiMulti.cpp:176] run(): [WIFI] IP: 192.168.27.240
+11:07:14.822 > [D][WiFiMulti.cpp:177] run(): [WIFI] MAC: E6:A1:A5:75:7B:F8
+11:07:14.828 > [D][WiFiMulti.cpp:178] run(): [WIFI] Channel: 6
+11:07:14.830 > [I][ESPWiFi.cpp:242] connect_to_nearest(): Connection established 
+11:07:14.837 > [D][main.cpp:157] setup(): Initialized wifi successfully
+11:07:14.842 > [D][main.cpp:158] setup(): MAC: CC:DB:A7:49:55:04
+11:07:14.845 > [D][rtc.cpp:21] initRTC(): RTC initialization successful
+11:07:14.852 > [I][main.cpp:193] setup(): ID found!
+11:07:14.857 > Device name: TESTKITAQI
+11:07:14.858 > 
+11:07:15.851 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:07:15.856 > 
+11:07:15.856 > [I][main.cpp:275] setup(): Internet not availaible or wifi disconnected
+11:07:15.862 > [I][Restart.cpp:10] incrementRestartCount(): Previous Restart Count: 1
+11:07:15.870 > [I][Restart.cpp:11] incrementRestartCount(): Previous Restart Time: 1748325875
+11:07:15.876 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:07:15.881 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:07:15.890 > [I][Restart.cpp:12] incrementRestartCount(): Current Restart Time: 1748326034
+11:07:15.894 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+11:07:15.904 > [D][WiFiMulti.cpp:195] run(): [WIFI] delete old wifi config...
+11:07:15.909 > [D][WiFiMulti.cpp:198] run(): [WIFI] start scan
+11:07:15.913 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+11:07:15.919 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:15.925 > 
+11:07:15.925 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+11:07:15.930 > [E][ESPWiFi.cpp:247] connect_to_nearest(): Connection timed out 
+11:07:15.961 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:14,TESTKITAQI,24.9, 57.3, 977.7
+11:07:15.969 > [D][Storage.cpp:223] write_data(): File written
+11:07:15.982 > [D][Storage.cpp:242] write_data(): config.txt created! 
+11:07:15.996 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:14,TESTKITAQI,24.9, 57.3, 977.7
+11:07:16.004 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:18.819 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+11:07:18.820 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 24
+11:07:18.907 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:18.907 > 
+11:07:18.954 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:17,TESTKITAQI,24.9, 57.4, 978.0
+11:07:18.964 > [D][Storage.cpp:223] write_data(): File written
+11:07:18.970 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:17,TESTKITAQI,24.9, 57.4, 978.0
+11:07:18.974 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:21.908 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:21.913 > 
+11:07:21.924 > [E][ESPWiFi.cpp:268] check_connection(): WiFi not connected. Establishing connection 
+11:07:21.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:20,TESTKITAQI,24.9, 57.4, 978.0
+11:07:21.964 > [D][Storage.cpp:223] write_data(): File written
+11:07:21.968 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:20,TESTKITAQI,24.9, 57.4, 978.0
+11:07:21.976 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:24.908 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:24.910 > 
+11:07:24.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:23,TESTKITAQI,24.8, 57.4, 978.0
+11:07:24.962 > [D][Storage.cpp:223] write_data(): File written
+11:07:24.965 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:23,TESTKITAQI,24.8, 57.4, 978.0
+11:07:24.972 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:27.636 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 1 - SCAN_DONE
+11:07:27.645 > [D][ESPWiFi.cpp:11] onWifiScan(): Number of WiFi Scan results: 18
+11:07:27.651 > [I][WiFiMulti.cpp:114] run(): [WIFI] scan done
+11:07:27.651 > [I][WiFiMulti.cpp:119] run(): [WIFI] 18 networks found
+11:07:27.660 > [D][WiFiMulti.cpp:151] run():        0: [8][50:0F:F5:80:A3:39] EnergyInformatics (-50) *
+11:07:27.664 > [D][WiFiMulti.cpp:151] run():        1: [4][7C:45:D0:3C:65:7E] ZONG4G-657E (-58) *
+11:07:27.670 > [D][WiFiMulti.cpp:151] run():        2: [11][00:A6:CA:47:AC:A0] Wireless (-58) *
+11:07:27.679 > [D][WiFiMulti.cpp:151] run():        3: [11][00:A6:CA:47:AC:A2] LUMS-Events (-58) *
+11:07:27.686 > [D][WiFiMulti.cpp:151] run():        4: [11][00:A6:CA:47:AC:A1] TV-LED (-58) *
+11:07:27.693 > [D][WiFiMulti.cpp:151] run():        5: [11][00:A6:CA:47:AC:A3] LUMS (-58) *
+11:07:27.703 > [D][WiFiMulti.cpp:151] run():        6: [6][3C:8A:1F:33:47:05] SM9-079 (-60) *
+11:07:27.703 > [D][WiFiMulti.cpp:151] run():        7: [2][50:D4:F7:10:A0:06] TP-Link_A006 (-61) *
+11:07:27.718 > [D][WiFiMulti.cpp:149] run():  --->   8: [6][E6:A1:A5:75:7B:F8] NeuBolt (-67) *
+11:07:27.725 > [D][WiFiMulti.cpp:151] run():        9: [6][90:9A:4A:B8:CD:83] Airbus380 (-71) *
+11:07:27.730 > [D][WiFiMulti.cpp:151] run():        10: [11][08:5A:11:23:67:E0] Wireless-LEC (-76) *
+11:07:27.735 > [D][WiFiMulti.cpp:151] run():        11: [1][70:70:8B:DD:0B:F1] wireless (-84) *
+11:07:27.744 > [D][WiFiMulti.cpp:151] run():        12: [1][70:70:8B:DD:0B:F5] LUMS-Events (-84) *
+11:07:27.752 > [D][WiFiMulti.cpp:151] run():        13: [1][70:70:8B:DD:0B:F6] LUMS (-85) *
+11:07:27.762 > [D][WiFiMulti.cpp:151] run():        14: [1][60:32:B1:09:5B:C0] TP-Link_5BC0 (-87) *
+11:07:27.765 > [D][WiFiMulti.cpp:151] run():        15: [1][4C:E1:75:1D:01:60] wireless-apple (-87) *
+11:07:27.776 > [D][WiFiMulti.cpp:151] run():        16: [4][AC:84:C6:DF:DF:F6] TP-Link_DFF6 (-93) *
+11:07:27.780 > [D][WiFiMulti.cpp:151] run():        17: [6][6A:4E:39:78:2D:75] Galaxy A15 F3D0 (-94) *
+11:07:27.789 > [I][WiFiMulti.cpp:160] run(): [WIFI] Connecting BSSID: E6:A1:A5:75:7B:F8 SSID: NeuBolt Channel: 6 (-67)
+11:07:27.908 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:27.913 > 
+11:07:27.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:26,TESTKITAQI,24.8, 57.5, 978.0
+11:07:27.962 > [D][Storage.cpp:223] write_data(): File written
+11:07:27.968 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:26,TESTKITAQI,24.8, 57.5, 978.0
+11:07:27.976 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:30.897 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:30.913 > 
+11:07:30.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:29,TESTKITAQI,24.8, 57.6, 978.0
+11:07:30.964 > [D][Storage.cpp:223] write_data(): File written
+11:07:30.968 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:29,TESTKITAQI,24.8, 57.6, 978.0
+11:07:30.976 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:33.882 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:07:33.898 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:33.913 > 
+11:07:33.929 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:07:33.929 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:07:33.929 > [I][WiFiMulti.cpp:174] run(): [WIFI] Connecting done.
+11:07:33.945 > [D][WiFiMulti.cpp:175] run(): [WIFI] SSID: NeuBolt
+11:07:33.945 > [D][WiFiMulti.cpp:176] run(): [WIFI] IP: 192.168.27.240
+11:07:33.945 > [D][WiFiMulti.cpp:177] run(): [WIFI] MAC: E6:A1:A5:75:7B:F8
+11:07:33.963 > [D][WiFiMulti.cpp:178] run(): [WIFI] Channel: 6
+11:07:33.963 > [I][ESPWiFi.cpp:242] connect_to_nearest(): Connection established 
+11:07:33.977 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:32,TESTKITAQI,24.7, 57.7, 977.8
+11:07:33.977 > [D][Storage.cpp:223] write_data(): File written
+11:07:33.992 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:32,TESTKITAQI,24.7, 57.7, 977.8
+11:07:33.994 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:34.963 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:07:34.969 > 
+11:07:34.971 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:07:34.978 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:07:34.983 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:07:36.899 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:36.909 > 
+11:07:36.956 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:35,TESTKITAQI,24.7, 57.6, 978.0
+11:07:36.958 > [D][Storage.cpp:223] write_data(): File written
+11:07:36.958 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:35,TESTKITAQI,24.7, 57.6, 978.0
+11:07:36.972 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:39.906 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:39.906 > 
+11:07:39.949 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:38,TESTKITAQI,24.7, 57.7, 978.0
+11:07:39.949 > [D][Storage.cpp:223] write_data(): File written
+11:07:39.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:38,TESTKITAQI,24.7, 57.7, 978.0
+11:07:39.971 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:40.902 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:07:40.938 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:07:40.941 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:07:42.894 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:42.913 > 
+11:07:42.941 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:41,TESTKITAQI,24.6, 57.7, 977.8
+11:07:42.957 > [D][Storage.cpp:223] write_data(): File written
+11:07:42.957 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:41,TESTKITAQI,24.6, 57.7, 977.8
+11:07:42.972 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:45.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:45.908 > 
+11:07:45.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:44,TESTKITAQI,24.6, 57.7, 978.0
+11:07:45.961 > [D][Storage.cpp:223] write_data(): File written
+11:07:45.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:44,TESTKITAQI,24.6, 57.7, 978.0
+11:07:45.977 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:47.973 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:07:47.980 > 
+11:07:47.980 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:07:47.989 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:07:47.995 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:07:48.897 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:48.909 > 
+11:07:48.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:47,TESTKITAQI,24.6, 57.7, 978.0
+11:07:48.961 > [D][Storage.cpp:223] write_data(): File written
+11:07:48.961 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:47,TESTKITAQI,24.6, 57.7, 978.0
+11:07:48.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:51.908 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:51.910 > 
+11:07:51.952 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:50,TESTKITAQI,24.6, 57.8, 978.0
+11:07:51.952 > [D][Storage.cpp:223] write_data(): File written
+11:07:51.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:50,TESTKITAQI,24.6, 57.8, 978.0
+11:07:51.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:54.101 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:07:54.129 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:07:54.139 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:07:54.901 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:54.913 > 
+11:07:54.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:53,TESTKITAQI,24.5, 57.8, 977.9
+11:07:54.961 > [D][Storage.cpp:223] write_data(): File written
+11:07:54.971 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:53,TESTKITAQI,24.5, 57.8, 977.9
+11:07:54.973 > [I][main.cpp:404] vStorage(): data written to storage
+11:07:57.904 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:07:57.904 > 
+11:07:57.950 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:56,TESTKITAQI,24.5, 57.9, 978.0
+11:07:57.958 > [D][Storage.cpp:223] write_data(): File written
+11:07:57.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:56,TESTKITAQI,24.5, 57.9, 978.0
+11:07:57.976 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:00.908 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:00.908 > 
+11:08:00.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:07:59,TESTKITAQI,24.5, 57.9, 978.0
+11:08:00.958 > [D][Storage.cpp:223] write_data(): File written
+11:08:00.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:07:59,TESTKITAQI,24.5, 57.9, 978.0
+11:08:00.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:00.990 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:08:00.992 > 
+11:08:00.992 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:08:01.002 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:08:01.008 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:08:03.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:03.903 > 
+11:08:03.956 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:02,TESTKITAQI,25.3, 61.9, 978.0
+11:08:03.962 > [D][Storage.cpp:223] write_data(): File written
+11:08:03.968 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:02,TESTKITAQI,25.3, 61.9, 978.0
+11:08:03.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:06.783 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:08:06.808 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:08:06.818 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:08:06.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:06.903 > 
+11:08:06.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:05,TESTKITAQI,24.9, 61.3, 978.0
+11:08:06.960 > [D][Storage.cpp:223] write_data(): File written
+11:08:06.968 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:05,TESTKITAQI,24.9, 61.3, 978.0
+11:08:06.972 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:09.901 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:09.912 > 
+11:08:09.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:08,TESTKITAQI,26.6, 68.4, 978.0
+11:08:09.956 > [D][Storage.cpp:223] write_data(): File written
+11:08:09.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:08,TESTKITAQI,26.6, 68.4, 978.0
+11:08:09.974 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:12.906 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:12.906 > 
+11:08:12.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:11,TESTKITAQI,26.8, 73.4, 977.8
+11:08:12.961 > [D][Storage.cpp:223] write_data(): File written
+11:08:12.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:11,TESTKITAQI,26.8, 73.4, 977.8
+11:08:12.976 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:14.001 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:08:14.001 > 
+11:08:14.001 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:08:14.015 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:08:14.021 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:08:15.906 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:15.910 > 
+11:08:15.952 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:14,TESTKITAQI,25.9, 70.1, 978.0
+11:08:15.960 > [D][Storage.cpp:223] write_data(): File written
+11:08:15.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:14,TESTKITAQI,25.9, 70.1, 978.0
+11:08:15.974 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:18.905 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:18.913 > 
+11:08:18.955 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:17,TESTKITAQI,25.4, 65.8, 978.0
+11:08:18.958 > [D][Storage.cpp:223] write_data(): File written
+11:08:18.965 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:17,TESTKITAQI,25.4, 65.8, 978.0
+11:08:18.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:20.050 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:08:20.098 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:08:20.102 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:08:21.904 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:21.904 > 
+11:08:21.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:20,TESTKITAQI,25.2, 63.0, 978.0
+11:08:21.958 > [D][Storage.cpp:223] write_data(): File written
+11:08:21.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:20,TESTKITAQI,25.2, 63.0, 978.0
+11:08:21.969 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:24.901 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:24.910 > 
+11:08:24.954 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:23,TESTKITAQI,25.0, 61.1, 977.9
+11:08:24.962 > [D][Storage.cpp:223] write_data(): File written
+11:08:24.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:23,TESTKITAQI,25.0, 61.1, 977.9
+11:08:24.974 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:27.016 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:08:27.018 > 
+11:08:27.018 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:08:27.026 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:08:27.034 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:08:27.904 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:27.904 > 
+11:08:27.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:26,TESTKITAQI,24.9, 59.9, 978.0
+11:08:27.961 > [D][Storage.cpp:223] write_data(): File written
+11:08:27.965 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:26,TESTKITAQI,24.9, 59.9, 978.0
+11:08:27.970 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:30.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:30.910 > 
+11:08:30.954 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:29,TESTKITAQI,24.8, 59.1, 978.0
+11:08:30.961 > [D][Storage.cpp:223] write_data(): File written
+11:08:30.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:29,TESTKITAQI,24.8, 59.1, 978.0
+11:08:30.973 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:32.750 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:08:32.781 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:08:32.787 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:08:33.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:33.911 > 
+11:08:33.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:32,TESTKITAQI,24.7, 58.6, 977.9
+11:08:33.958 > [D][Storage.cpp:223] write_data(): File written
+11:08:33.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:32,TESTKITAQI,24.7, 58.6, 977.9
+11:08:33.973 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:36.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:36.903 > 
+11:08:36.952 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:35,TESTKITAQI,24.7, 58.3, 978.0
+11:08:36.962 > [D][Storage.cpp:223] write_data(): File written
+11:08:36.965 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:35,TESTKITAQI,24.7, 58.3, 978.0
+11:08:36.973 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:39.900 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:39.910 > 
+11:08:39.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:38,TESTKITAQI,24.6, 58.1, 978.0
+11:08:39.961 > [D][Storage.cpp:223] write_data(): File written
+11:08:39.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:38,TESTKITAQI,24.6, 58.1, 978.0
+11:08:39.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:40.025 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:08:40.034 > 
+11:08:40.034 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:08:40.034 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:08:40.043 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:08:42.906 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:42.906 > 
+11:08:42.952 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:41,TESTKITAQI,24.5, 58.0, 978.0
+11:08:42.957 > [D][Storage.cpp:223] write_data(): File written
+11:08:42.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:41,TESTKITAQI,24.5, 58.0, 978.0
+11:08:42.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:45.902 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:45.902 > 
+11:08:45.902 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:08:45.954 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:44,TESTKITAQI,24.5, 58.0, 977.8
+11:08:45.960 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:08:45.967 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:08:45.974 > [D][Storage.cpp:223] write_data(): File written
+11:08:45.983 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:44,TESTKITAQI,24.5, 58.0, 977.8
+11:08:45.992 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:48.900 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:48.911 > 
+11:08:48.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:47,TESTKITAQI,24.4, 58.0, 978.0
+11:08:48.963 > [D][Storage.cpp:223] write_data(): File written
+11:08:48.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:47,TESTKITAQI,24.4, 58.0, 978.0
+11:08:48.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:51.900 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:51.910 > 
+11:08:51.950 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:50,TESTKITAQI,24.4, 58.0, 978.0
+11:08:51.958 > [D][Storage.cpp:223] write_data(): File written
+11:08:51.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:50,TESTKITAQI,24.4, 58.0, 978.0
+11:08:51.974 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:53.040 > [D][ping.cpp:203] ping_recv(): Request timeout for icmp_seq 1
+11:08:53.046 > 
+11:08:53.046 > [D][DataTransfer.cpp:38] handleWifiConnection(): Ping not received
+11:08:53.051 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 5 - STA_DISCONNECTED
+11:08:53.058 > [W][WiFiGeneric.cpp:391] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+11:08:54.903 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:54.903 > 
+11:08:54.953 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:53,TESTKITAQI,24.3, 58.0, 978.0
+11:08:54.957 > [D][Storage.cpp:223] write_data(): File written
+11:08:54.965 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:53,TESTKITAQI,24.3, 58.0, 978.0
+11:08:54.973 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:57.900 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:08:57.900 > 
+11:08:57.951 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:56,TESTKITAQI,24.3, 58.1, 978.0
+11:08:57.961 > [D][Storage.cpp:223] write_data(): File written
+11:08:57.966 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:56,TESTKITAQI,24.3, 58.1, 978.0
+11:08:57.975 > [I][main.cpp:404] vStorage(): data written to storage
+11:08:59.106 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+11:08:59.155 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+11:08:59.161 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 192.168.27.240, MASK: 255.255.255.0, GW: 192.168.27.34
+11:09:00.905 > [I][main.cpp:339] vAcquireData(): Cycle number: 1
+11:09:00.912 > 
+11:09:00.952 > [I][main.cpp:355] vAcquireData(): 2025-05-27 11:08:59,TESTKITAQI,24.3, 58.3, 978.0
+11:09:00.962 > [D][Storage.cpp:223] write_data(): File written
+11:09:00.967 > [D][main.cpp:403] vStorage(): Data Written: 2025-05-27 11:08:59,TESTKITAQI,24.3, 58.3, 978.0
+11:09:00.973 > [I][main.cpp:404] vStorage(): data written to storage
