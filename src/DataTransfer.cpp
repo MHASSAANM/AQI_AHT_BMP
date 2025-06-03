@@ -1,5 +1,6 @@
 #include "DataTransfer.h"
 
+bool serverData = false;
 void handleWifiConnection()
 {
     static int wifiFailCounter = 0;

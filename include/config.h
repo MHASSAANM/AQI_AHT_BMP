@@ -4,8 +4,8 @@
 #include <Arduino.h>
 
 #define FIRMWARE_VERSION "1.1.0"
-#define FIRMWARE_DESCRIPTION "AQI Meter PM2.5"
-#define COMMIT_DATE "23 March 2025"
+#define FIRMWARE_DESCRIPTION "Environmental Meter"
+#define COMMIT_DATE "2 June 2025"
 
 #define OTA_UPDATE
 // #define DUMMY_DATA
@@ -24,8 +24,8 @@
 #define DEFAULT_MQTT_SERVER "203.135.63.47"
 #define DEFAULT_MQTT_PORT 1883
 
-#define FIREBASE_HOST "aqiid-f80ba-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define FIREBASE_AUTH "CFbINwH5QuFq41EcSAY3WcPcDJNhLbXNFcvWIuZM"
+#define FIREBASE_HOST "envmeter-a0e0a-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define FIREBASE_AUTH "uDgoUWcIO1zG8lGZLnlF20QRvvF08ND1lyFvROT6"
 
 #define WIFI_SCAN_FAILURE_LIMIT 3
 #define STORAGE_WRITE_FAILURE_LIMIT 3
